@@ -1,5 +1,5 @@
-<?php
-include_once 'dbConnection.php';
+<?html
+include_once 'dbConnection.html';
 ob_start();
 $name = $_POST['name'];
 $name= ucwords(strtolower($name));
@@ -31,11 +31,11 @@ session_start();
 $_SESSION["email"] = $email;
 $_SESSION["name"] = $name;
 
-header("location:account.php?q=1");
+header("location:account.html");
 }
 else
 {
-header("location:index.php?q7=Email Already Registered!!!");
+header("location:index.html?q7=Email Already Registered!!!");
 }
 ob_end_flush();
 ?>

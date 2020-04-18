@@ -1,1 +1,0 @@
-jQuery(function($){$('body').addClass('js');$('.home-middle article, .home-top article').each(function(){var $time=$(this).find('.entry-time');$(this).find('a.alignleft, a.alignnone, a.alignright').append($time);});});jQuery(document).ready(function($){jQuery("#accordion").accordion({collapsible:true,heightStyle:"content"});});
